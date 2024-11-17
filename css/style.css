@@ -1,0 +1,281 @@
+/* roboto google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-section{
+}
+
+.col-2{
+    flex: 1 0 50%;
+    height: 600px;
+}
+
+.hero-banner{
+    background-color: #015761;
+    height: 100%;
+}
+.hero-banner h4{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    color: #F0D850;
+    font-size: 21px;
+    font-weight: 400;
+}
+.hero-banner-content{padding-left: 190px;padding-top: 130px;}
+.hero-banner-content h3{color: #F0D850;font-size: 40px;font-weight: 400;}
+
+.hero-banner-content h1{
+    font-size: 75px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.hero-banner-content p{
+    font-size: 14px;
+    color: #fffffff5;
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.hero-banner nav{
+    padding-left: 18px;
+}
+
+.hero-banner nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-banner nav ul li {
+    list-style: none;
+}
+.hero-banner nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    color: #ffffffcc;
+    font-size: 14px;
+}
+
+.hero-imamge{
+    background-color: #BFC2BB;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-imamge img{
+    border-radius: 50%;
+}
+
+.socialList{position: fixed;top: 50%;right: 1px;transform: translateY(-50%);}
+
+.socialList li{
+    list-style: none;
+}
+
+.socialList li a{
+
+text-decoration: none;
+
+display: block;
+
+width: 35px;
+
+height: 35px;
+
+background-color: yellow;
+
+/* text-align: center; */
+
+/* line-height: 35px; */
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+color: #000;
+transition: all 0.6s ease;
+}
+
+.socialList li a:hover{
+    background-color: #000;
+    color: yellow;
+}
+
+
+.about-section{
+    background-color: #F1F0F0;
+    padding: 75px 0px;
+}
+
+.about-section .about-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-section .about-content h2{
+    padding-bottom: 25px;
+    color: #015761;
+    font-size: 40px;
+}
+
+.about-section .about-content p{
+    padding-bottom: 30px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #333;
+}
+
+.about-section .about-content button{
+    padding: 10px 20px;
+    background-color: #F7DC4F;
+    border: 1px solid #f7db4f00;
+    color: #015761;
+    transition: 0.4s ease all;
+}
+
+.about-section .about-content button:hover{
+    background-color: #015761;
+    border: 1px solid #015761;
+    color: #F7DC4F;
+}
+
+.reel-section{
+}
+
+.reel-content{}
+
+.reel-content h1{
+    color: #015761;
+    font-size: 50px;
+    text-align: center;
+    padding: 60px 0 60px;
+}
+
+
+.reel-video{
+    background-image: url(images/Sady-banner.jpg);
+}
+
+
+.photo-section{padding-bottom: 60px;}
+.photo-section h1{
+    color: #015761;
+    font-size: 50px;
+    padding: 60px 0 60px;
+    text-align: center;
+}
+.photo-section .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-section .col-3{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-section img{
+    padding: 10px;
+}
+
+.Contact-section{    
+color: #ffffffd1;
+}
+.Contact-section img{
+    
+width: 100%;
+}
+.contact-content{padding-left: 170px;padding-top: 70px;padding-bottom: 85px;background-color: #015761;}
+
+.contact-content h2{
+
+font-size: 60px;
+
+color: #F7DC4F;
+}
+.contact-content h4{
+
+padding-top: 20px;
+
+font-size: 22px;
+
+font-weight: 400;
+}
+.contact-info{
+    padding-top: 15px;
+}
+
+.contact-info strong{}
+
+.contact-info p{
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.contact-info .social-icon{
+    padding-top: 15px;
+}
+
+.contact-info .social-icon ul{
+    display: flex;
+}
+
+.contact-info .social-icon ul li{
+    list-style: none;
+}
+
+.contact-info .social-icon ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 9px;
+    padding: 8px;
+}
+
+.contact-info .social-icon ul li:first-child{
+    padding-left: 0px;
+}
+.contact-info .social-icon ul li a i{}
+
+.footer-section{
+    padding: 20px 0 50px;
+}
+.footer-content{
+    text-align: center;
+}
+
+.footer-content p{
+    color: #333333c9;
+    font-size: 12px;
+}
